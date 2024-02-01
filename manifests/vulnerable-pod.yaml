@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: vulnerable-pod
+  namespace: exploit
+spec:
+  containers:
+  - name: ubuntu
+    image: h3xeilidh/ubuntu-userx-pe-1:latest
+   
